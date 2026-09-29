@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+	</head>
+<body>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="https://sourcecodester.com">Sourcecodester</a>
+		</div>
+	</nav>
+	<div class="col-md-3"></div>
+	<div class="col-md-6 well">
+		<h3 class="text-primary">JavaScript - Simple Dynamic Input Form</h3>
+		<hr style="border-top:1px dotted #ccc;" class="w-100 opacity-100"/>
+		<hr class="border-dark opacity-100"> 
+		<form method="POST">
+			<h3>Form Field</h3>
+			<div id="forms" class="form-inline">
+				<input type="text" class="form-control" placeholder="Enter text here..." name="form[]">
+			</div>
+			<br />
+			<button type="button" class="btn btn-primary" onclick="addField();">Add Field</button>
+		</form>
+	</div>
+<script src="js/script.js"></script>	
+</body>	
+</html>
